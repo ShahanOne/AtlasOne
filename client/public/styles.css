@@ -1,0 +1,310 @@
+body{
+  background-color: #313552;
+}
+.main-div{
+    background-color: hsl(207, 26%, 17%);
+ overflow-x: hidden;
+    width: 100%;
+    padding: 0;
+}
+ .top-bar{
+     color: #F6F5F5;
+     background-color: hsl(209, 23%, 22%);
+     font-size: 1.3rem;
+     font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+    width: auto;
+    padding: 0.5%;
+    padding-left: 4%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+} 
+.where-to{
+    display: inline-block;
+}
+.theme-para{
+  margin-bottom: 0 ;
+}
+.dark-btn{
+    display: inline-block;
+    position: relative;
+    left: 75%;
+}
+.loading{
+  position: relative;
+  left: 2%;
+  
+    height: 38rem;
+    width: 90%;
+}
+.top-search{
+    padding-top: 3%;
+}
+.search-div{
+  margin-left: 4%;
+  display: inline-flex;
+  width: 25%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.search-input{
+    background-color: hsl(209, 23%, 22%);
+    border-radius: 0;
+    border-color: hsl(209, 23%, 22%);
+}
+.search-input::placeholder{
+  color: #D3E0EA;
+}
+.search-input:focus{
+    outline: none !important;
+    color:#ddd;
+  background-color: hsl(209, 23%, 22%);
+}
+
+
+
+.dropbtn {
+    background-color: hsl(209, 23%, 22%);
+    color:#D3E0EA;
+    margin-top: 10% ;
+    padding: 5%;
+    font-size: 16px;
+    border: none;
+    width: 160px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    left: 52%;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: hsl(209, 23%, 22%);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content button {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ 
+  .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+  
+  
+  .dropdown:hover .dropdown-content {display: block;}
+ 
+.card-parent{
+    padding-top: 2%;
+    position: relative;
+    left: 3%;
+}
+.country-card{
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 100%);
+    padding: 0;
+    margin: 2%;
+    width: 19%;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 10px, rgba(17, 17, 26, 0.05) 0px 8px 12px;
+    border-radius: 2%;
+    border: 0;
+    padding-bottom: 2%;
+}
+.flag{
+    border-radius: 2% 2% 0 0;
+    height: 12rem;
+padding-bottom: 5%;
+}
+.country-name{
+    padding-left: 8%;
+    font-weight: 600;
+    color: #F6F5F5;
+}
+
+.country-para{
+    color: #D3E0EA;
+padding-left: 8%;
+font-weight: 600;
+font-size: 0.9rem;
+margin-bottom: 2px;
+}
+.country-para .span{
+    color:  #B2B1B9;
+    font-size: 0.9rem;
+}
+
+/* Card Preview */
+.back-btn{
+  background-color:hsl(209, 23%, 22%) ;
+  border-color: hsl(209, 23%, 22%);
+  color: white;
+  margin: 3%;
+  position: relative;
+  left: 5.3%;
+  border-radius: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.top-row{
+  padding-top: 2%;
+  padding-bottom: 14%;
+}
+.img-div{
+  align-items: center;
+}
+.info-img{
+height: 20rem;
+width: 30rem;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.info-name{
+  color: #F6F5F5;
+  font-size: 2rem;
+  font-weight: 500;
+
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.info-para{
+  color: #D3E0EA;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.info-para span{
+  color: #B2B1B9;
+}
+.border-para{
+  color: #D3E0EA;
+}
+/* .border-button{
+
+} */
+
+.footer{
+  background-color: #313552;
+  color: #D3E0EA;
+  padding: 2% 0 4%;
+}
+.footer-text{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer-link {
+  font-size: 2.2rem;
+  font-family: 'Roboto Slab', serif;
+  color: #FFC0D3;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #D885A3;
+}
+@media (max-width:1000px) {
+
+  .where-to{
+    font-size: 1.6rem;
+    display: inline-block;
+  }
+
+.dark-btn{
+  position: absolute;
+  left: 77%;
+  top: 0.8%;
+  width: 20%;
+  display: inline-block;
+  font-size: 1rem;
+  height: 2.3rem;
+  margin-left: 0;
+  padding: 0;
+  margin-bottom: 3%;
+}
+
+.search-div{
+  width:auto;
+  height: 2.8rem;
+  margin: 2% 4%;
+}
+.search-input{
+  font-size: 1.2rem;
+}
+.dropdown{
+  position: unset;
+  margin-left: 4%;
+}
+.dropdown-item{
+  font-size: 1.1rem;
+}
+.dropdown-content{
+  width: 180px;
+}
+.dropbtn{
+  width: 180px;
+  margin: 5% 0;
+  padding: 5%;
+  font-size: 1.1rem;
+}
+ .country-card{
+        margin: 5%;
+        margin-left: 7%;
+        width: 80%;
+        padding-bottom: 8%;
+        border-radius:2.3%;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
+    .flag{
+      height:15rem;
+    }
+    .country-name{
+      font-size: 1.4rem;
+    }
+    .country-para{
+      font-size: 1.2rem;
+    }
+    .country-para .span{
+      font-size: 1.1rem;
+    }
+    .info-img{
+      height: 13rem;
+      width: 100%;
+      margin-bottom: 15%;
+    }
+    .border-para{
+      font-size: 1.3rem;
+      margin: 4% 4% 4% 0;
+    }
+    .info-para{
+      margin:5% 4% 4% 0;
+      font-size: 1.3rem;
+    }
+    .back-btn{
+      background-color: hsl(209, 23%, 22%);
+      border-color: hsl(209, 23%, 22%);
+      font-size: 1.4rem;
+      width: 30%;
+      color: white;
+      position: unset;
+      margin: 7% 7% 7% 5.1%;
+      border-radius: 0;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    .footer-text{
+      font-size: 1rem;
+    }
+    .footer-link{
+      font-size: 1.2rem;
+      display: block;
+      margin-top: 1.5%;
+    }
+    .loading{
+      height: 50vh;
+    }
+    
+}
