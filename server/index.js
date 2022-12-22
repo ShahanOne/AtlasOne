@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -31,7 +32,7 @@ app.get('/api', (req, res) => {
     });
 });
 
-let port = 3001;
+let port = process.env.PORT || 3001;
 
 app.listen(port, function () {
   console.log('Server started on port 3001');
