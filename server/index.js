@@ -34,7 +34,7 @@ app.get('/api', (req, res) => {
       let json = CircularJSON.stringify(response.data);
       res.send(json);
       // handle success
-      //   res.json(response)
+      console.log(response);
     })
     .catch(function (error) {
       // handle error
