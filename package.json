@@ -5,11 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd client && npm install && npm run build",
-    "install-client": "cd client && npm install",
-    "start": "node server/index.js",
-    "client": "cd client && npm start",
-    "dev": "concurrently \"npm run client\" \"npm run start\""
+    "start": "node server/index.js"
   },
   "keywords": [],
   "author": "",
